@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PackageSchema" targetNamespace="http://tempuri.org/PackageSchema.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/PackageSchema.xsd" xmlns:mstns="http://tempuri.org/PackageSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="package">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="label">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sender" type="xs:string" />
+              <xs:element name="remoteIsWaiting" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="payload" type="xs:string">
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Diese Datei wird automatisch vom XML-Schema-Designer generiert. Sie enthält Layoutinformationen für Komponenten auf der Designeroberfläche.-->
+<XSDDesignerLayout Style="LeftRight" layoutVersion="2" viewPortLeft="0" viewPortTop="0" zoom="100">
+    <package_XmlElement left="11139" top="4445" width="5292" height="2831" selected="0" zOrder="1" index="0" expanded="1">
+        <label_XmlElement left="17065" top="4445" width="5292" height="2831" selected="0" zOrder="2" index="0" expanded="1" />
+    </package_XmlElement>
+</XSDDesignerLayout>
