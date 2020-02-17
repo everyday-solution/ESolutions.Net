@@ -42,6 +42,7 @@ bld/
 
 # NCRUNCH
 *.ncrunchproject
+*.ncrunchsolution.user
 
 # NUNIT
 *.VisualState.xml
