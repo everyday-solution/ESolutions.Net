@@ -14,7 +14,6 @@ namespace ESolutions.Net.Tests
 
 			ESolutions.Net.NetworkAdapter adapter = new NetworkAdapter(System.Net.IPAddress.Parse(""));
 			ESolutions.Net.Package p = new Package();
-			p.p
 		}
 	}
 }
