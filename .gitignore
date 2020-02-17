@@ -40,6 +40,9 @@ bld/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+# NCRUNCH
+*.ncrunchproject
+
 # NUNIT
 *.VisualState.xml
 TestResult.xml
