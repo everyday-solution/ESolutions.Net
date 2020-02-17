@@ -6,13 +6,18 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle ("ESolutions.Net")]
-[assembly: AssemblyDescription ("")]
-[assembly: AssemblyConfiguration ("")]
-[assembly: AssemblyCompany ("")]
+[assembly: AssemblyDescription ("Contains basic mechanisms to communicate between network adapters encapsulating sockets and utilizing xml documents.")]
+#if DEBUG
+[assembly: AssemblyConfiguration("Debug")]
+#else
+[assembly: AssemblyConfiguration("Release")]
+#endif
+[assembly: AssemblyCompany ("Tobias Mundt - everyday Solutions")]
 [assembly: AssemblyProduct ("ESolutions.Net")]
 [assembly: AssemblyCopyright ("Copyright ©  2005")]
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("ESolutions.Net.Tests")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM componenets.  If you need to access a type in this assembly from 

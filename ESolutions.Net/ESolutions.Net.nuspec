@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>$title$</title>
+		<authors>$author$</authors>
+		<owners>$author$</owners>
+		<license type="expression">MIT</license>
+		<projectUrl>https://github.com/everyday-solution/ESolutions.Net</projectUrl>
+		<icon>images\es_logo_mid.png</icon>
+		<iconUrl>http://www.everyday-solutions.de/images/es_logo_mid.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>$description$</description>
+		<releaseNotes></releaseNotes>
+		<copyright>Copyright 2017</copyright>
+		<tags>system net network socket xml</tags>
+	</metadata>
+  	<files>
+		<file src="..\es_logo_mid.png" target="images\" />
+	</files>
+</package>
